@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['Java 8', 'Spring Boot', 'Kubernetes', 'MongoDb', 'GoLang', 'Kafka'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,19 +141,24 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hello! I'm Vaibhav, a software engineer based in Bengaluru, MA.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              I enjoy working on highly available distributed system. My goal is to develope system that provide pitch perfect, 
+              performant experience.
             </p>
 
             <p>
               Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              <a href="https://www.coep.org.in/">COEP</a>, I joined the
+              engineering team at <a href="https://www.hpe.com/us/en/home.html">HPE</a> 
+              where I worked on High throughput data streaming and data analytics project (Operation Bridge reporter). 
+              We used kafka with apache flink for data streaming,Spring boot in web application layer and relational DB as data store.
+              In <a href="https://www.oracle.com/index.html">Oracle</a>  I worked on Single sign on (Security) product Oracle Access Manager. OAM is used by almost all 500 fortune companies.OAM also has high risk customers like NASA. 
+              OAM is developed on event driven architecture. Frontend is develoed using JSP,Backend is developed in core java.
+              Currently in <a href="https://www.vmware.com/in.html">VMWare</a> I am working for CSP(Cloud service platform) team. Cloud service platform is E-commerce website by VMWare. 
+              Customer can subscribe to VMWare cloud services using CSP platform.CSP platform backend is developed in MicroService architecture.
+              Technologies we use here are Spring Boot,Java,RabbitMQ, Kafka, Pivotal Cloud foundry, Kubernetes, docker, MongoDB, Mariadb, Kong, ZUUL, vault.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
