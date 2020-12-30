@@ -141,7 +141,7 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Vaibhav, a software engineer based in Bengaluru, MA.</p>
+            <p>Hello! I'm Vaibhav, a software engineer based in Bengaluru, KA.</p>
 
             <p>
               I enjoy working on highly available distributed system. My goal is to develope system that provide pitch perfect, 

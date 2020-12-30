@@ -1,10 +1,10 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'vabhi42@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/vaibhavsanap',
     },
     {
       name: 'Instagram',
@@ -16,11 +16,11 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/vaibhav-sanap/',
     },
     {
       name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://www.hackerearth.com/@vabhi42',
     },
   ],
 
